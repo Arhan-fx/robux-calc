@@ -5,7 +5,7 @@ function calculate() {
 
   // Rates
   const robuxRateUsd = 38 / 10000; // 1 Robux in USD
-  const usdToInr = 85;
+  const usdToInr = 95;
 
   if (isNaN(amount) || amount <= 0) {
     resultText.innerHTML = "Result: Please enter a valid number";
