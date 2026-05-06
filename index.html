@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robux Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Robux Calculator</h1>
+
+    <div class="card">
+      <label>Enter Amount</label>
+      <input type="number" id="amount" placeholder="Enter value" />
+
+      <label>Conversion Type</label>
+      <select id="conversionType">
+        <option value="robuxToUsd">Robux → USD</option>
+        <option value="usdToRobux">USD → Robux</option>
+        <option value="robuxToInr">Robux → INR</option>
+        <option value="inrToRobux">INR → Robux</option>
+      </select>
+
+      <button onclick="calculate()">Calculate</button>
+
+      <div class="result">
+        <h2 id="resultText">Result: </h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
